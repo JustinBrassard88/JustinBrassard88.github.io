@@ -1,0 +1,82 @@
+#website_title {
+    background-color: red;
+    font-size:  50px;
+    font-family: "Copperplate", fantasy;
+    text-align: center;
+    padding: 1px;
+  }
+
+
+  .Links {
+    background-color:darkgray;
+    font-size:  20px;
+    font-family: "Copperplate", Fantasy;
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+    word-spacing: 20px;
+   
+  }
+
+  
+  .Link_Text {
+    background-color: orange;
+    font-size:  20px;
+    padding: 2px;
+    text-align: center;
+    
+  }
+
+  .Header_Titles {
+    background-color:darkgray;
+    font-size:  30px;
+    font-family: "Copperplate", Fantasy;
+    border: 2px solid black;
+    text-align: center;
+    
+  }
+
+
+  .Images_Side {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Regular_Text {
+    background-color: orange;
+    font-size:  20px;
+    font-family: "Times New Roman", Times, serif;
+    padding: 1px;
+  }
+
+  #Image_Format_1 {
+    background-color: orange;
+    border-image: solid;
+    padding: 50px;
+    
+  }
+
+
+  #Smaller_Header {
+    background-color:darkgray;
+    font-size:  24px;
+    font-family: "Copperplate", Fantasy;
+    border: 2px solid black;
+    text-align: center;
+
+  }
+  
+
+ 
+  #Hockey_Points,th,td {
+    border: 1px solid black;
+    width:60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+
+  }
