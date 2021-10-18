@@ -8,31 +8,43 @@
     <meta name="description" content = "This website tells you information about me and my background in Hockey">
 <!-- This tag is the Title of the Website (Main Webpage Heading Bar) -->
     <title>Justin's Website</title>
+<!-- This tag references my stylesheet for formatting -->
+    <link rel ="stylesheet" href="stylesheet.css">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
 </head> 
 
 
 <body> 
 
 <header>
+    <div id = "website_title" >
 <!-- This heading gives a welcome statement in the header -->
     <h1> My Experience with Hockey</h1>
+        </div>
 
+        <div class = "Links">
 <!-- This provides navigation back to the first page of my website -->
     <nav>
          <a href= "index.html" > Home Page</a>
     </nav>
+            </div>
 
+     <div class = "Link_Text">
 <!-- Provides a description on what the link to my home page does  -->
 <p> Click the link above to return to the home page!</p>    
+            </div>
 
-</header>
-
-
+ </header>
 
 <main>
+
+    <div class = "Header_Titles" >
 <!-- This section shows my hockey background -->
     <h2>My Hockey Life:</h2>
+        </div>
 
+        
+    <div class = "Regular_Text" >
 <!-- This is my first paragraph which provides information on my hockey experiences -->
     <p> Hockey has been something that has been greatly influential in my life throughout my childhood. I started taking skating 
         lessons originally when I was 6 years old because my dad is a big hockey fanatic. He played a high level of hockey when he 
@@ -52,10 +64,13 @@
     <img src="Images/hockey.jpg" alt="A picture when I played rep hockey">
 
 
-
+    <div class = "Header_Titles" >
 <!-- This section shows values I learned from Hockey-->
     <h2>What did I learn from hockey?</h2>
+        </div>
 
+        
+    <div class = "Regular_Text" >
 <!-- This is my first paragraph which provides information on my hockey experiences -->
     <p> As this sport continues to be an important aspect of my life, it still inspires me to this day as you learn so many life values and skills outside of 
         just playing the game. Going to various tournaments and sport events during the time I was playing the game allowed me and an individual to develop 
@@ -63,13 +78,17 @@
         allowed me to become the person that I am today. I will forever be greatful for that. Hockey to me was much more then just a game. It was a learning curve,
         a good place to meet friends and an opportunity to travel to various places. But generally, the game allowed me to grow as a person 
         through our team values. Overall, the game has changed my life forever and I continue to carry on the values I learned through rep hockey.  </p>
+         </div>
 
 
+    <div class = "Header_Titles" >
 <!-- This is a description of what will be seen in the table -->        
-    <p> Here are the statistics of my last 3 games while playing AA for the Caledon Hawks</p> 
-        
-<!-- This is a table showing my hockey stats -->        
-        <table>
+    <p> Here are the statistics of my last 3 games while playing AA for the Caledon Hawks:</p> 
+         </div>
+
+<!-- This is a table showing my hockey stats -->    
+
+    <table id = Hockey_Points>
             <tr>
               <th>Opposing Team Name</th>
               <th>Goals</th>
@@ -90,20 +109,28 @@
                 <td>1</td>
                 <td>2</td>
               </tr>
-          </table>
-</main>
+         </table>
+
+        </main>
 
 
 <footer>
+
+    <div class = "Header_Titles" >
 <!-- Header to explain that there are external links shown below -->
     <h4>Additional Links</h4>
+        </div>
 
+    <div class = "Link_Text">
 <!-- This gives a description as to what the links below will bring you to -->
     <p> The links provided below will provide more information on Caledon minor Hockey and a pathway to the national hockey leagues website.</p>
+        </div>
 
+    <div class = "Links">
 <!-- These are 2 absolute links to external Websites -->
     <a href="https://caledonminorhockey.ca/" target="_blank"> Caledon Hawks Website </a>
     <a href="https://www.nhl.com/" target="_blank"> NHL Website </a>
+        </div>
 </footer>
 
 </body>
