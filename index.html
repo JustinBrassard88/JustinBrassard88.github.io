@@ -10,39 +10,39 @@
     <title>Justin's Website</title>
 <!-- This tag references my stylesheet for formatting -->
     <link rel ="stylesheet" href="stylesheet.css">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
 </head> 
 
 
 <body> 
 <header>
 
-    <div id = "website_title" >
-        
 <!-- This heading gives a welcome statement in the header -->
-    <h1> Welcome to My Website!</h1>
-        </div>
+    <div id = "website_title" >
+        <h1> Welcome to My Website!</h1>
+    </div>
 
-<!-- This provides navigation to my hockey page of the website -->
+    <div class = "Links">
+        <!-- This provides navigation back to the first page of my website -->
+            <nav>
+                 <a href= "Hockey.html" > Home Page</a>
+            </nav>
+                    </div>
 
-    <div id = "Links">
-<nav>
-    <a href= "Hockey.html" > Hockey Page</a>
-</nav>
-        </div>
 
-    <div id = "Link_Text">
+    <div class = "Link_Text">
 <!-- Provides a description on what the link to my hockey page does  -->
     <p> If you are interested in what you see on this page, click the link above to navigate to my hockey page!</p>
     </div>
 </header>
 
 <main>
-    <div id = "Header_Titles" >
+    <div class = "Header_Titles" >
 <!-- This is my first heading which is the first subtopic on this page -->
     <h2>About My Website</h2>
         </div>
 
-    <div id = "Text_AboutWebsite" >
+    <div class = "Regular_Text" >
 <!-- This is my first paragraph which provides information about the assignment and my website -->
     <p> Welcome to my first website for GEOM101. In this class, we are learning to use HTML and CSS to formulate a website. 
         This website will give you a look at what I was able to implement for this assignment. I will be providing background 
@@ -54,12 +54,12 @@
         <img src="Images/Grad_Pic.jpeg" alt=" Justin Brassard Graduation Picture">
         </div>
 
-    <div id = "Header_Titles" >
+    <div class = "Header_Titles" >
 <!-- This is my second heading which is the second sub topic of this page -->
     <h2>Background information about my life:</h2>
          </div>
 
-    <div id = "Regular_Text" > 
+    <div class = "Regular_Text" > 
 <!-- This is my second paragraph which provides some background information about my life -->
     <p> My name is Justin Brassard. I was born in Bolton Ontario, which is a small town located located northwest of Missisauga, 
         Ontario. I have lived here with my whole life as my parents moved here from northern Ontario (Kapuskasing) before I was born.
@@ -69,19 +69,25 @@
         to learn new skills and expand my knowldege in any way that I can. In my mind, this will benefit me now and in the future.</p>
          </div> 
 
+
+    <div class="row">
 <!-- This is an image of me and my family (Image taken by my grandfather on August 24th 2019 In Kirkland Lake, Ontario)) -->
-        <img src="Images/Family.jpg" alt=" The Brassard Family">
-
+            <div class="Images_Side">
+                <img src="Images/Family.jpg" alt=" The Brassard Family" style="width:100%">
+            </div>
 <!-- This is an image of my family and I when we went white water rafting (Image taken by Montreal Rafting on August 3rd 2018 In Montreal, Quebec)) -->
-        <img src="Images/Rafting_With_Family.JPG" alt="Family White Water Rafting">
+            <div class="Images_Side">
+                <img src="Images/Rafting_With_Family.JPG" alt="Family White Water Rafting" style="width:100%">
+            </div>
+        </div>
 
 
-    <div id = "Header_Titles" >
+    <div class = "Header_Titles" >
 <!-- This is my third heading which is the third sub topic of this page -->
     <h2>Why am I attending Fleming college?</h2>
         </div>   
 
-        <div id = "Regular_Text" > 
+        <div class = "Regular_Text" > 
 <!-- This is my third paragraph which provides some background as to why I am pursuing GIS and why I am attending Fleming College -->
     <p> I graduated Humberview Secondary school (Highschool) in 2018 and originally went to McMaster University for the business commerce 
         program. I quickly realized that this program wasn't for me after taking and enjoying an elective in geography at the school. I proceeded
@@ -100,16 +106,22 @@
 
 
 <footer>
+    <div class = "Header_Titles" > 
 <!-- Header to explain that there are external links shown below -->
     <h4>Additional Links</h4>
-
+        </div>   
+    
+    <div class = "Link_Text" >
 <!-- This gives a description as to what the links below will bring you to -->
     <p> The links provided below will provide more information on GIS and a link to my fathers work website for ILI Analysis.</p>
-
+        </div>
+        
+        
+    <div class = "Links">  
 <!-- These are 2 absolute links to external Websites -->
     <a href="https://www.esri.com/en-us/home" target="_blank"> ESRI's Homepage </a>
-    <a href="https://www.entegrasolutions.com/" target="_blank"> ENTEGRA ILI Pipeline Analysis </a>
-    
+    <a href="https://www.entegrasolutions.com/" target="_blank"> ENTEGRA (ILI Pipeline Analysis) </a>
+        </div>
 
 </footer>
 
