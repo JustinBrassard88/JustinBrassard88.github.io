@@ -1,3 +1,9 @@
+
+/*This website used ideology from: https://www.w3schools.com/Css/*/
+
+
+/*This formats my title elements on the website.
+This section's ideology came from: https://www.w3schools.com/Css/css_text.asp*/ 
 #website_title {
     background-color: red;
     font-size:  50px;
@@ -7,25 +13,36 @@
   }
 
 
+/*This formats my link section background on the website.
+  This section's ideology came from: https://www.w3schools.com/Css/css_link.asp*/
   .Links {
     background-color:darkgray;
     font-size:  20px;
     font-family: "Copperplate", Fantasy;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
    
   }
 
+
+/*This formats my Link text color on the website.
+  This section's ideology came from: https://www.w3schools.com/Css/css_link.asp*/
   .Links a {
     color: crimson;
     text-decoration: none;
   }
 
+
+/*This formats my Link text with a hover effect color background on the website.
+  This section's ideology came from: https://www.w3schools.com/Css/css_link.asp*/
   .Links a:hover {
     background: white;
 
   }
 
+
+/*This formats my Link text background on the website.
+  This section's ideology came from: https://www.w3schools.com/Css/css_text.asp*/
   .Link_Text {
     background-color: orange;
     font-size:  20px;
@@ -34,6 +51,22 @@
     
   }
 
+
+/*This is one of the CSS value that will be overwritten for my <p> elements with 3 selectors changed.
+  This section's ideology came from: https://www.w3schools.com/Css/css_text.asp*/
+  .Header_Titles {
+    background-color:blue;
+    font-size:  10px;
+    font-family: "Arial",serif;
+    border: 2px solid black;
+    text-align: center;
+    
+  }
+
+
+/*This formats my main headings throughout the website.
+  This the new overwritten <h> elements with 3 selectors changed.
+  This section's ideology came from: https://www.w3schools.com/Css/css_text.asp*/
   .Header_Titles {
     background-color:darkgray;
     font-size:  30px;
@@ -44,14 +77,19 @@
   }
 
 
-  .Images_Side {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-    margin-left: auto;
-    margin-right: auto;
+/*This is one of the CSS value that will be overwritten for my <p> elements with 3 selectors changed.
+  This section's ideology came from: https://www.w3schools.com/Css/css_text.asp*/
+  .Regular_Text {
+    background-color:red;
+    font-size:  30px;
+    font-family: "Copperplate", Fantasy;
+    padding: 1px;
   }
 
+
+/*This formats my main text throughout the website.
+  This the new overwritten <p> elements with 3 selectors changed.
+  This section's ideology came from: https://www.w3schools.com/Css/css_text.asp*/
   .Regular_Text {
     background-color: orange;
     font-size:  20px;
@@ -59,7 +97,8 @@
     padding: 1px;
   }
 
-  #Image_Format_1 {
+ 
+  #Image_Format {
     background-color: orange;
     border-image: solid;
     padding: 50px;
@@ -67,23 +106,47 @@
   }
 
 
-  #Smaller_Header {
-    background-color:darkgray;
-    font-size:  24px;
-    font-family: "Copperplate", Fantasy;
-    border: 2px solid black;
-    text-align: center;
+/*This is one of the CSS values that will be overwritten for one of my other tags.
+  This section's ideology came from: https://www.w3schools.com/Css/css_background.asp*/
+  #backgroud_colour_table {
+    background-color:purple; 
 
   }
-  
 
- 
+
+/*This formats my background behind my table throughout the website.
+  This one of the other new overwritten  elements with 1 selectors changed.
+  This section's ideology came from: https://www.w3schools.com/Css/css_background.asp*/
+  #backgroud_colour_table {
+    background-color:orange; 
+
+  }
+
+
+/*This is one of the CSS values that will be overwritten for one of my other tags
+  This section's ideology came from: https://www.w3schools.com/Css/css_table.asp*/
   #Hockey_Points,th,td {
-    border: 1px solid black;
+    border: 5px solid gray;
+    background-color:#E0DCDC; 
+    color: black;
     width:60%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 
+  }
+
+
+/*This formats my table on the second page the website.
+  This one of the other new overwritten elements with 1 selectors changed.
+  This section's ideology came from: https://www.w3schools.com/Css/css_table.asp*/
+  #Hockey_Points,th,td {
+    border: 1px solid black;
+    background-color:#E0DCDC; 
+    color: black;
+    width:60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 
   }
