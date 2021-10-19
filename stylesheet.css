@@ -11,14 +11,21 @@
     background-color:darkgray;
     font-size:  20px;
     font-family: "Copperplate", Fantasy;
-    border: 2px solid black;
     text-align: center;
     padding: 20px;
-    word-spacing: 20px;
    
   }
 
-  
+  .Links a {
+    color: crimson;
+    text-decoration: none;
+  }
+
+  .Links a:hover {
+    background: white;
+
+  }
+
   .Link_Text {
     background-color: orange;
     font-size:  20px;
