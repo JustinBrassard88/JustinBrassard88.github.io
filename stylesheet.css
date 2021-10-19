@@ -97,13 +97,19 @@ This section's ideology came from: https://www.w3schools.com/Css/css_text.asp*/
     padding: 1px;
   }
 
- 
-  #Image_Format {
-    background-color: orange;
-    border-image: solid;
-    padding: 50px;
-    
-  }
+
+/*This formats my images throughout the website.
+  This section's ideology came from: https://www.w3schools.com/Css/css_background.asp*/
+
+  .Image_Format {
+   background-color: orange;
+   width: auto;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+
+   }
 
 
 /*This is one of the CSS values that will be overwritten for one of my other tags.
