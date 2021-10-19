@@ -52,7 +52,7 @@ This section's ideology came from: https://www.w3schools.com/Css/css_text.asp*/
   }
 
 
-/*This is one of the CSS value that will be overwritten for my <p> elements with 3 selectors changed.
+/*This is one of the CSS value that will be overwritten for my <h> elements with 3 selectors changed.
   This section's ideology came from: https://www.w3schools.com/Css/css_text.asp*/
   .Header_Titles {
     background-color:blue;
